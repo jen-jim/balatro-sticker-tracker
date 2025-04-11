@@ -548,5 +548,225 @@ module.exports = [
             "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Ice_Cream.png/revision/latest?cb=20230925035153",
         collected: false,
         highest_stake_won: null
+    },
+    {
+        number: 51,
+        joker_name: "DNA",
+        effect: "If first hand of round has only 1 card, add a permanent copy to deck and draw it to hand",
+        rarity: "Rare",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/4/47/DNA.png/revision/latest?cb=20241026221241",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 52,
+        joker_name: "Splash",
+        effect: "Every played card counts in scoring",
+        rarity: "Common",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/0/01/Splash.png/revision/latest?cb=20230925035324",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 53,
+        joker_name: "Blue Joker",
+        effect: "+2 Chips for each remaining card in deck",
+        rarity: "Common",
+        type: "+ Chips",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/e/ed/Blue_Joker.png/revision/latest?cb=20240502124050",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 54,
+        joker_name: "Sixth Sense",
+        effect: "If first hand of round is a single 6, destroy it and create a Spectral card (Must have room)",
+        rarity: "Uncommon",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/d/d5/Sixth_Sense.png/revision/latest?cb=20240320232300",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 55,
+        joker_name: "Constellation",
+        effect: "This Joker gains X0.1 Mult every time a Planet card is used",
+        rarity: "Uncommon",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/6/69/Constellation.png/revision/latest?cb=20230925035508",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 56,
+        joker_name: "Hiker",
+        effect: "Every played card permanently gains +5 Chips when scored",
+        rarity: "Uncommon",
+        type: "+ Chips",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/a/a9/Hiker.png/revision/latest?cb=20230925035548",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 57,
+        joker_name: "Faceless Joker",
+        effect: "Earn $5 if 3 or more face cards are discarded at the same time",
+        rarity: "Common",
+        type: "Economy",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/8/8f/Faceless_Joker.png/revision/latest?cb=20240320232316",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 58,
+        joker_name: "Green Joker",
+        effect: "+1 Mult per hand played, -1 Mult per discard",
+        rarity: "Common",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/6/6c/Green_Joker.png/revision/latest?cb=20240320232316",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 59,
+        joker_name: "Superposition",
+        effect: "Create a Tarot card if poker hand contains an Ace and a Straight (Must have room)",
+        rarity: "Common",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/6/68/Superposition.png/revision/latest?cb=20230925035625",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 60,
+        joker_name: "To Do List",
+        effect: "Earn $4 if poker hand is a [Poker Hand], poker hand changes at end of round",
+        rarity: "Common",
+        type: "Economy",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/2/2c/To_Do_List.png/revision/latest?cb=20230925035709",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 61,
+        joker_name: "Cavendish",
+        effect: "X3 Mult, 1 in 1000 chance this card is destroyed at the end of round",
+        rarity: "Common",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/1/13/Cavendish.png/revision/latest?cb=20240320232317",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 62,
+        joker_name: "Card Sharp",
+        effect: "X3 Mult if played poker hand has already been played this round",
+        rarity: "Uncommon",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/1/12/Card_Sharp.png/revision/latest?cb=20240502124025",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 63,
+        joker_name: "Red Card",
+        effect: "This Joker gains +3 Mult when any Booster Pack is skipped",
+        rarity: "Common",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/9/93/Red_Card.png/revision/latest?cb=20240320232317",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 64,
+        joker_name: "Madness",
+        effect: "When Small Blind or Big Blind is selected, gain X0.5 Mult and destroy a random Joker",
+        rarity: "Uncommon",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/e/ee/Madness.png/revision/latest?cb=20240320232318",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 65,
+        joker_name: "Square Joker",
+        effect: "This Joker gains +4 Chips if played hand has exactly 4 cards",
+        rarity: "Common",
+        type: "+ Chips",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/5/53/Square_Joker.png/revision/latest?cb=20240502193704",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 66,
+        joker_name: "Séance",
+        effect: "If poker hand is a Straight Flush, create a random Spectral card (Must have room)",
+        rarity: "Uncommon",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/6/6f/S%C3%A9ance.png/revision/latest?cb=20240320232319",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 67,
+        joker_name: "Riff-Raff",
+        effect: "When Blind is selected, create 2 Common Jokers (Must have room)",
+        rarity: "Common",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/d/d2/Riff-Raff.png/revision/latest?cb=20240502123959",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 68,
+        joker_name: "Vampire",
+        effect: "This Joker gains X0.1 Mult per scoring Enhanced card played, removes card Enhancement",
+        rarity: "Uncommon",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/4/4e/Vampire.png/revision/latest?cb=20240320232319",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 69,
+        joker_name: "Shortcut",
+        effect: "Allows Straights to be made with gaps of 1 rank (ex: 10 8 6 5 3)",
+        rarity: "Uncommon",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/8/89/Shortcut.png/revision/latest?cb=20240320232320",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 70,
+        joker_name: "Hologram",
+        effect: "This Joker gains X0.25 Mult every time a playing card is added to your deck",
+        rarity: "Uncommon",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/0/07/Hologram.gif/revision/latest?cb=20240413030441",
+        collected: false,
+        highest_stake_won: null
     }
 ];
