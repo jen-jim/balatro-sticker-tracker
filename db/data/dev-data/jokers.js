@@ -328,5 +328,225 @@ module.exports = [
             "https://static.wikia.nocookie.net/balatrogame/images/0/02/Chaos_the_Clown.png/revision/latest?cb=20230925003955",
         collected: false,
         highest_stake_won: null
+    },
+    {
+        number: 31,
+        joker_name: "Fibonacci",
+        effect: "Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored",
+        rarity: "Uncommon",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/f/f1/Fibonacci.png/revision/latest?cb=20230925030041",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 32,
+        joker_name: "Steel Joker",
+        effect: "Gives X0.2 Mult for each Steel Card in your full deck",
+        rarity: "Uncommon",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Steel_Joker.png/revision/latest?cb=20230925011654",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 33,
+        joker_name: "Scary Face",
+        effect: "Played face cards give +30 Chips when scored",
+        rarity: "Common",
+        type: "+ Chips",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/c/c8/Scary_Face.png/revision/latest?cb=20240320232259",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 34,
+        joker_name: "Abstract Joker",
+        effect: "+3 Mult for each Joker card",
+        rarity: "Common",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/c/ca/Abstract_Joker.png/revision/latest?cb=20230925013704",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 35,
+        joker_name: "Delayed Gratification",
+        effect: "Earn $2 per discard if no discards are used by end of the round",
+        rarity: "Common",
+        type: "Economy",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/c/c3/Delayed_Gratification.png/revision/latest?cb=20230925013747",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 36,
+        joker_name: "Hack",
+        effect: "Retrigger each played 2, 3, 4, or 5",
+        rarity: "Uncommon",
+        type: "Retrigger",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Hack.png/revision/latest?cb=20230925011231",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 37,
+        joker_name: "Pareidolia",
+        effect: "All cards are considered face cards",
+        rarity: "Uncommon",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/8/81/Pareidolia.png/revision/latest?cb=20240429132936",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 38,
+        joker_name: "Gros Michel",
+        effect: "+15 Mult 1 in 6 chance this is destroyed at the end of round",
+        rarity: "Common",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/6/6f/Gros_Michel.png/revision/latest?cb=20230925031850",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 39,
+        joker_name: "Even Steven",
+        effect: "Played cards with even rank give +4 Mult when scored (10, 8, 6, 4, 2)",
+        rarity: "Common",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/2/20/Even_Steven.png/revision/latest?cb=20230925021257",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 40,
+        joker_name: "Odd Todd",
+        effect: "Played cards with odd rank give +31 Chips when scored (A, 9, 7, 5, 3)",
+        rarity: "Common",
+        type: "+ Chips",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/1/17/Odd_Todd.png/revision/latest?cb=20230925021342",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 41,
+        joker_name: "Scholar",
+        effect: "Played Aces give +20 Chips and +4 Mult when scored",
+        rarity: "Common",
+        type: "+ Chips & + Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/c/c5/Scholar.png/revision/latest?cb=20230925021359",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 42,
+        joker_name: "Business Card",
+        effect: "Played face cards have a 1 in 2 chance to give $2 when scored",
+        rarity: "Common",
+        type: "Economy",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/1/16/Business_Card.png/revision/latest?cb=20230925021530",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 43,
+        joker_name: "Supernova",
+        effect: "Adds the number of times poker hand has been played this run to Mult",
+        rarity: "Common",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/3/30/Supernova.png/revision/latest?cb=20230925021716",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 44,
+        joker_name: "Ride the Bus",
+        effect: "This Joker gains +1 Mult per consecutive hand played without a scoring face card",
+        rarity: "Common",
+        type: "+ Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/3/34/Ride_the_Bus.png/revision/latest?cb=20230925031327",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 45,
+        joker_name: "Space Joker",
+        effect: "1 in 4 chance to upgrade level of played poker hand",
+        rarity: "Uncommon",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/7/70/Space_Joker.png/revision/latest?cb=20230925030535",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 46,
+        joker_name: "Egg",
+        effect: "Gains $3 of sell value at end of round",
+        rarity: "Common",
+        type: "Economy",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/2/26/Egg.png/revision/latest?cb=20230925034821",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 47,
+        joker_name: "Burglar",
+        effect: "When Blind is selected, gain +3 Hands and lose all discards",
+        rarity: "Uncommon",
+        type: "Effect",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/2/29/Burglar.png/revision/latest?cb=20230925034923",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 48,
+        joker_name: "Blackboard",
+        effect: "X3 Mult if all cards held in hand are ♠️ Spades or ♣️ Clubs",
+        rarity: "Uncommon",
+        type: "x Mult",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/c/c6/Blackboard.png/revision/latest?cb=20230925035010",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 49,
+        joker_name: "Runner",
+        effect: "Gains +15 Chips if played hand contains a Straight",
+        rarity: "Common",
+        type: "+ Chips",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/1/14/Runner.png/revision/latest?cb=20230925035057",
+        collected: false,
+        highest_stake_won: null
+    },
+    {
+        number: 50,
+        joker_name: "Ice Cream",
+        effect: "+100 Chips -5 Chips for every hand played",
+        rarity: "Common",
+        type: "+ Chips",
+        img_url:
+            "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Ice_Cream.png/revision/latest?cb=20230925035153",
+        collected: false,
+        highest_stake_won: null
     }
 ];
